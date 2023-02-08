@@ -1,47 +1,40 @@
-# TypeScript Next.js example
+# Next.js + Tailwind CSS template
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+This project template aims to simplify the setup of Tailwind CSS on your Next.js app.
 
-## Deploy your own
+Before using this template, please make sure that your development environment is ready as stated on [Next.js](https://nextjs.org/learn/basics/create-nextjs-app/setup) website.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
+## Create a Next.js App
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+To create a Next.js app with this template, open your terminal, `cd` into the directory you'd like to create the app in, and run the command below:
 
-## How to use it?
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-```
-
-```bash
-yarn create next-app --example with-typescript with-typescript-app
-```
-
-```bash
-pnpm create next-app --example with-typescript with-typescript-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+Note:
+Replace `nextjs-blog` with the project name you'd like to create, eg. `my-nextjs-app`.
 
 ```
-npm install --save-dev typescript
+npx create-next-app nextjs-blog --use-npm --example "https://github.com/earvinpiamonte/nextjs-tailwindcss-template"
 ```
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+## Run development server
 
 ```
-npm install --save-dev @types/react @types/react-dom @types/node
+cd nextjs-blog
 ```
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+```
+npm run dev
+```
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
+## Deploy with Vercel
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+Deploy this template using Vercel:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/earvinpiamonte/nextjs-tailwindcss-template)
+
+## Maintainer
+
+This project is maintained by [Noel Earvin Piamonte](https://www.earvinpiamonte.com).
+
+## Credits
+
+[Deploy button image](https://vercel.com/button) used on this `README.md` is owned by [Vercel](https://vercel.com).
