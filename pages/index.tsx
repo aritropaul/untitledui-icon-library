@@ -12,6 +12,7 @@ const getIcons = (list: { [x: string]: any; }) => {
   for (let iconName in keys.sort()) {
     content.push(
       <div className='p-4 items-center hover:bg-slate-200 rounded-md flow-root'>
+        {/* @ts-ignore */}
         <Icon className='mx-auto' name={keys[iconName]} size='24' stroke='black'></Icon>
         <p className='mb-0 text-xs text-center break-all'>{keys[iconName]}</p>
       </div>
