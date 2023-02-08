@@ -1,5 +1,5 @@
 import React from "react";
-import { Icons, IconNames } from "./Icons.tsx";
+import { Icons, IconNames } from "./Icons";
 
 interface IconProperties {
 

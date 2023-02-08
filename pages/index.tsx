@@ -2,7 +2,6 @@ import getConfig from 'next/config';
 import Icon from '@/components/Icon';
 import Layout from '@/components/Layout';
 import { Icons } from '@/components/Icons';
-import { useState } from 'react';
 
 const { publicRuntimeConfig } = getConfig();
 const { name } = publicRuntimeConfig.site;
